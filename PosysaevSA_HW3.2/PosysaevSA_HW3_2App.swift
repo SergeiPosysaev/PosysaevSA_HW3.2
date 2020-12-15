@@ -11,7 +11,9 @@ import SwiftUI
 struct PosysaevSA_HW3_2App: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(rSliderValue: 0.5,
+                        gSliderValue: 0.5,
+                        bSliderValue: 0.5)
         }
     }
 }
